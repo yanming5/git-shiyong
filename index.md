@@ -27,3 +27,8 @@
 	+ 会把远程分支的数据获取到：（本地：注意需要初始化一个仓储！）
 - `git clone [url]`
 	+ 会得到远程仓储相同的数据，唯一不同的是会自动创建目录，如果多次执行会覆盖本地内容
+- `git remote add [origin变量名字] [url值]`
+	+ 相式声明了一个变量origin 存储的值是url
+- `git push origin -u master `
+	+ -u 是把远程存储和本地关联起来 下次在使用pull ，push 不用 输入 master直接
+	`git push` 或 `git pull`来完成操作
