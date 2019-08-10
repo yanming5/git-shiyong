@@ -32,3 +32,4 @@
 - `git push origin -u master `
 	+ -u 是把远程存储和本地关联起来 下次在使用pull ，push 不用 输入 master直接
 	`git push` 或 `git pull`来完成操作
+------------------------git 简单教程说明已经完成-----------------
